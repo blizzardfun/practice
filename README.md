@@ -1,3 +1,5 @@
 # practice
 This is for practicing python and github.
-Not for anything meaningful
+
+I have my own branch
+Trying to figure out git merge

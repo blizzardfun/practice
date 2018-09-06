@@ -7,11 +7,12 @@ def nextday():
     print(f"Do yo think it is a good idea to keep counting? Let it go! {days} days is too many to keep counting")
 def wait():
     temp = input("Are you ready to start the day? Y/N ")
-
+    if (temp == 'N') or (temp == 'n'):
+        print("done")
 day1()
 wait()
 day2()
-wait
-for i in range(3):
+wait()
+for i in range(2):
     nextday()
     wait ()
